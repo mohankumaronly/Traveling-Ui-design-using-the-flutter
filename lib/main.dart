@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travelling_app_design/screens/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Traveling Application Design Learning',
-      home: Scaffold(),
+      home: WelcomeScreen(),
     );
   }
 }
